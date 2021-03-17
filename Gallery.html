@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script language = "javascript">
+        function MouseRollover(MyImage){
+            MyImage.src = "img/hughbert.jpg";
+        }
+        function MouseOut(MyImage){
+            MyImage.src = "img/download.jpg";
+        }
+
+
+
+    </script>
+    
+</head>
+<body>
+
+    <div class="navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="BookingForm.html">Book Now</a>
+        <a href="PriceList.html">Price List</a>
+        <a href="Gallery.html">Gallery</a>
+      </div>
+
+    <h1>Scruffy to Fluffy</h1>
+    <h2>Before and After</h2>
+    <h3>Rollover images to see finished results</h3>
+
+    <div>
+        <img src = "img/hughbert.jpg" boarder = "0px" width ="350px" height = "600px"
+    onMouseOver = "MouseRollover(this)"
+    onMouseOut = "MouseOut(this)"/>
+    </div>

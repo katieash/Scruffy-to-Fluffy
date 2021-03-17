@@ -1,0 +1,77 @@
+
+
+.body{
+  display: flex;
+  flex-direction: column;
+  background-color: lightcoral;
+  font-family: 'Hachi Maru Pop', cursive;
+  padding-top: 56px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  font-size: 125px;
+  font-weight: bold;
+  text-align: center;
+  color:teal;
+  background-color:lightcoral;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+.subheader{
+  font-size: 75px;
+  font-weight: bold;
+  font-family: 'Hachi Maru Pop', cursive;
+  background-color: teal;
+  color:lightcoral;
+  text-align: center;
+}
+
+
+#carouselExampleIndicators img {
+  width: 100%; 
+  height: calc(100vh - 56px);
+  object-fit:fill;  /* "object-fit" property has various options for fitting an image within a specified space (works because both the img width and height are specified) */
+}
+
+
+
+.navbar {
+  background-color: lightcoral;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: teal;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Hachi Maru Pop', cursive;
+  border-style: solid;
+}
+
+.navbar a:hover {
+  background-color: teal;
+  color: lightcoral;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: teal;
+  color:lightcoral;
+}
+
+.about {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Hachi Maru Pop', cursive;
+  background-color: teal;
+  color:lightcoral;
+  text-align: center;
+}
+
