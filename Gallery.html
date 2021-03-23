@@ -11,14 +11,55 @@
 
     <link rel="stylesheet" href="style.css">
 
+    
+
     <script language = "javascript">
+
+
         function MouseRollover(MyImage){
-            MyImage.src = "img/hughbert.jpg";
+            MyImage.src = "MyPicture4.jpg";
         }
         function MouseOut(MyImage){
-            MyImage.src = "img/download.jpg";
+            MyImage.src = "MyPicture3.jpg";
         }
 
+
+        function MouseRollover1(MyImage){
+            MyImage.src = "MyPicture2.jpg";
+        }
+        function MouseOut1(MyImage){
+            MyImage.src = "MyPicture1.jpg";
+        }
+
+
+        function MouseRollover2(MyImage){
+            MyImage.src = "MyPicture8.jfif";
+        }
+        function MouseOut2(MyImage){
+            MyImage.src = "MyPicture7.jfif";
+        }
+
+        function MouseRollover3(MyImage){
+            MyImage.src = "MyPicture6.jfif";
+        }
+        function MouseOut3(MyImage){
+            MyImage.src = "MyPicture5.jfif";
+        }
+
+
+        function MouseRollover4(MyImage){
+            MyImage.src = "MyPicture10.jfif";
+        }
+        function MouseOut4(MyImage){
+            MyImage.src = "MyPicture9.jfif";
+        }
+
+        function MouseRollover5(MyImage){
+            MyImage.src = "MyPicture12.jfif";
+        }
+        function MouseOut5(MyImage){
+            MyImage.src = "MyPicture11.jfif";
+        } 
 
 
     </script>
@@ -26,19 +67,80 @@
 </head>
 <body>
 
-    <div class="navbar">
-        <a class="active" href="index.html">Home</a>
-        <a href="BookingForm.html">Book Now</a>
-        <a href="PriceList.html">Price List</a>
-        <a href="Gallery.html">Gallery</a>
-      </div>
-
-    <h1>Scruffy to Fluffy</h1>
-    <h2>Before and After</h2>
-    <h3>Rollover images to see finished results</h3>
-
-    <div>
-        <img src = "img/hughbert.jpg" boarder = "0px" width ="350px" height = "600px"
-    onMouseOver = "MouseRollover(this)"
-    onMouseOut = "MouseOut(this)"/>
+    <div class="header"> 
+        Scruffy to Fluffy
     </div>
+
+    <div class="subheader">
+        Professional Dog Grooming
+    </div>
+
+<div class="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="BookingForm.html">Book Now</a>
+    <a href="PriceList.html">Price List</a>
+    <a href="Gallery.html">Gallery</a>
+  </div>
+
+    <div class="subheader">
+    Before and After
+    </div>
+
+
+    <div class="about">
+    Rollover images to see finished results
+    </div>
+
+    <div class="box1">
+
+        
+            <img src = "MyPicture3.jpg" boarder = "0px" width ="420px" height = "500px"
+        onMouseOver = "MouseRollover(this)"
+        onMouseOut = "MouseOut(this)"/>
+        
+
+        
+            <img src = "MyPicture1.jpg" boarder = "0px" width = "420px" height ="500px"
+        onMouseOver = "MouseRollover1(this)"
+        onMouseOut = "MouseOut1(this)"/>
+        
+            
+            <img src = "MyPicture7.jfif" boarder = "0px" width = "420px" height = "500px"
+        onMouseOver = "MouseRollover2(this)"
+        onMouseOut = "MouseOut2(this)"/>    
+
+
+
+    </div>
+
+    <div class="box2">
+
+             
+            <img src = "MyPicture5.jfif" boarder = "0px" width = "420px" height = "500px"
+        onMouseOver = "MouseRollover3(this)"
+        onMouseOut = "MouseOut3(this)"/>
+
+
+            <img src = "MyPicture9.jfif" boarder = "0px" width = "420px" height = "500px"
+        onMouseOver = "MouseRollover4(this)"
+        onMouseOut = "MouseOut4(this)"/>
+
+            <img src = "MyPicture11.jfif" boarder = "0px" width = "420px" height = "500px"
+        onMouseOver = "MouseRollover5(this)"
+        onMouseOut = "MouseOut5(this)"/>
+            
+        
+    </div>
+
+        <!-- Add font awesome icons -->
+<div class="footertitle"> Follow us on social media </div>
+
+<div class="footer">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="http://facebook.com" class="fa fa-facebook"></a>
+<a href="http://twitter.com" class="fa fa-twitter"></a>
+<a href="http://instagram.com" class="fa fa-instagram"></a>
+</div>
+
